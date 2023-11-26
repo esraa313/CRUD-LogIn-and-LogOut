@@ -1,0 +1,14 @@
+.logo{
+    width: 3.5%;
+}
+.ancore{
+    text-decoration: none;
+    /* padding-top: 13px; */
+    font-size: larger;
+    color :aqua;
+    transition: .6s color ;
+}
+.ancore:hover {
+    color: rgb(126, 179, 248);
+    text-decoration: none;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+body{
+	background-image: url("https://www.forbes.com/advisor/wp-content/uploads/2022/09/stethoscope-on-gray.jpeg.jpg");
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height:100vh;
+	font-family: 'Noto Sans', sans-serif;
+}
+ .text-center{
+	color:#e7a33c;	
+	text-transform:uppercase;
+    font-size: 23px;
+    display: block;
+    text-align: center;
+margin-bottom: 5%;
+} 
+ .box{
+	top:55%;
+	left:55%;
+    background-color: rgb(34, 34, 34);
+	border-radius:3px;
+	margin-right:27%;
+	margin-left: 27%;
+	margin-top: 4.4%;
+	padding:30px 70px;
+} 
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+} 
+ .input-container label{
+	position: absolute;
+	top:0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: all 0.3s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:gainsboro;
+} 
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+.submit{
+	
+	background-color:#c43c2d;
+	outline: none;
+    border: 0;
+    
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+} 
+
+ .input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top: -20px;
+	left: 0;
+	color: #03e9f4;
+	font-size: 12px;
+	
+} 
+.error{
+    color: red;
+}
+.valid{
+    color: rgb(52, 197, 52);
+}
+/* body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://www.forbes.com/advisor/wp-content/uploads/2022/09/stethoscope-on-gray.jpeg.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+} */
+
+ .logo{
+	width: 3.5%;
+ }
+ .buttonUpdate{
+background-color: rgb(140, 0, 255);
+ }
+ .buttonDelete{
+
+ }

@@ -1,0 +1,14 @@
+::placeholder {
+    color: rgb(143, 143, 143);
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: red;
+  }
+input{
+    margin-top: 56px;
+}
+label{
+    color: rgb(27, 238, 20);
+}
